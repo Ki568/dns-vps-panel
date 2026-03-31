@@ -43,4 +43,4 @@ echo "✅ INSTALLATION COMPLETE!"
 
 # Run panel
 echo "[+] Starting panel..."
-python3 main.py
+python3 lvm.py
