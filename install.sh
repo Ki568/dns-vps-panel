@@ -6,7 +6,7 @@ sleep 1
 
 # Update & install dependencies
 echo "[+] Installing dependencies..."
-apt update -y
+apt update && apt upgrade -y
 apt install -y git unzip python3 python3-pip sqlite3
 
 # Clone repo
