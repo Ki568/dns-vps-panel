@@ -11,7 +11,6 @@ apt install -y git unzip python3 python3-pip sqlite3
 
 # Clone repo
 echo "[+] Cloning repository..."
-rm -rf /root/lvm-panel
 git clone https://github.com/underdevanshxd/lvm-panel.git /root/lvm-panel
 
 cd /root/lvm-panel || exit
