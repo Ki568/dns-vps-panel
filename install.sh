@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 clear
-echo "🔥 LVM VPS PANEL INSTALLER 🔥"
+echo "🔥 DEVIL NODES VPS PANEL INSTALLER 🔥"
 sleep 1
 
 # Update & install dependencies
@@ -18,7 +18,7 @@ cd /root/lvm-panel || exit
 # Unzip
 echo "[+] Extracting files..."
 if [ -f "lvm.zip" ]; then
-    unzip -o lvm.zip
+    unzip lvm.zip
 fi
 
 # Install requirements
